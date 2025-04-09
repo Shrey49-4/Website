@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<header>
+    <h1>Pandora's Box</h1>
+</header>
+
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="code">Enter Code:</label>
+            <input type="text" id="code" name="code" required>
+            <button type="submit">Submit</button>
+            <p id="error-message" style="color:red; display:none;">Invalid code, please try again.</p>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

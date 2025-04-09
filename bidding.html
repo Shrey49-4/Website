@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugatti Auction</title>
+    <link rel="stylesheet" href="bidding.css">
+    <script src="bidding.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="pbl5.jpg" alt="Pandora's Box Logo" class="logo">
+    </header>
+
+    <main>
+        <!-- Current Bidding Status -->
+        <section id="bidding-status">
+            <h2>Current Bidding Status</h2>
+            <p><strong>Current Highest Bid:</strong> <span id="highest-bid">$0</span></p>
+            <p><strong>Total Bids:</strong> <span id="bid-count">0</span></p>
+            <p><strong>Auction Ends In:</strong> <span id="timer">00:00:00</span></p>
+        </section>
+
+        <!-- Bidding Section -->
+        <section id="place-bid">
+            <h2>Place Your Bid</h2>
+            <form id="bid-form">
+                <label for="bid-amount">Enter your bid amount:</label>
+                <input type="number" id="bid-amount" placeholder="Enter bid in USD" required>
+                <button type="submit">Place Bid</button>
+            </form>
+            <p id="bid-feedback" class="hidden"></p>
+        </section>
+
+        <!-- Bid History -->
+        <section id="bid-history">
+            <h2>Bid History</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Amount (In Thousands)</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody id="history-entries">
+                    <!-- Entries added dynamically -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Post Auction -->
+    <footer>
+        <p id="winner-announcement" class="hidden"> Winner : <span id="winner-name"></span></p>
+    </footer>
+</body>
+</html>

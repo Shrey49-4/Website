@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(45,44,51,1) 100%, rgba(59,80,115,1) 100%, rgba(7,53,150,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.login-container {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(45,44,51,1) 100%, rgba(59,80,115,1) 100%, rgba(7,53,150,1) 100%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-align: center;
+    font-family: 'Perpetua Titling MT';
+    padding: 10px 0;
+    z-index: 1000; 
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 97%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: #0056b3;
+}
