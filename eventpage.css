@@ -1,0 +1,60 @@
+.event-promo {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(45,44,51,1) 100%, rgba(59,80,115,1) 100%, rgba(7,53,150,1) 100%, rgba(0,212,255,1) 100%);
+  color: #f2f2f2;
+  padding: 80px 10%;
+  font-family: 'Playfair Display', serif;
+}
+
+.event-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.event-header h1 {
+  font-size: 42px;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.event-header p {
+  font-size: 18px;
+  color: #ccc;
+  font-style: italic;
+}
+
+.event-details {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.9;
+  color: #ddd;
+}
+
+.subscription-note {
+  background: rgba(255, 215, 0, 0.1);
+  padding: 20px;
+  border-left: 4px solid gold;
+  margin-top: 30px;
+  color: gold;
+  font-weight: 600;
+}
+
+.subscribe-btn {
+  margin-top: 30px;
+  background: gold;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #111;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.subscribe-btn:hover {
+  background: #d4af37;
+}
+
+
